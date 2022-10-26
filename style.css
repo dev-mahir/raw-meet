@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.meet-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#main-screen{
+    width: 1000px;
+    height: 600px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.controls{
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 50px;
+    text-align: center;
+
+}
+.controls button{
+display: inline-block;
+color: white;
+font-size: 15px;
+background-color: tomato;
+border: none;
+border-radius: 50%;
+margin: 0 5px;
+cursor: pointer;
+width: 40px;
+height: 40px;
+transition: .3s;
+}
+.controls button:hover{
+    transition: .3s;
+    background-color: white;
+    color: #333;
+}
+
