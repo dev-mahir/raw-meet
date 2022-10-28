@@ -16,26 +16,28 @@
 
     <div class="meet-area">
         <div id="main-screen" class="screen">
-            <div id="caller-screen"></div>
+            <video id="main-video"></video>
 
-
-
-
+            <div id="caller-screen">
+                <video id="caller-video"></video>
+            </div>
 
             <div class="controls">
-                <button><i class="fa fa-phone" aria-hidden="true"></i> </button>
-                <button><i class="fa fa-video-camera" aria-hidden="true"></i></button>
-                <button><i class="fa fa-microphone" aria-hidden="true"></i></button>
-                <button><i class="fa fa-desktop" aria-hidden="true"></i> </button>
-                <button><i class="fa fas fa-ellipsis-h" aria-hidden="true"></i> </button>
+                <button class="meet-btn" id="cam"><i class="fa fa-video-camera" aria-hidden="true"></i></button>
+                <button class="meet-btn"><i class="fa fa-phone" aria-hidden="true"></i> </button>
+                <button class="meet-btn" id="mic"> <i class="fa fa-microphone" aria-hidden="true"></i>
+                 </button>
+                <button class="meet-btn" id="desktop"><i class="fa fa-desktop" aria-hidden="true"></i> </button>
+                <button class="meet-btn"><i class="fa fas fa-ellipsis-h" aria-hidden="true"></i> </button>
             </div>
+
         </div>
     </div>
 
 
 
 
-
+<script src="./app.js"></script>
 </body>
 
 </html>
